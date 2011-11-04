@@ -33,7 +33,7 @@ class PjaxMenu {
 	}
 
 	public static function getCustomPjaxTemplate() {
-		if (array_key_exists('HTTP_X_PJAX', $_SERVER)) {
+		if (array_key_exists('HTTP_X_PJAX', $_SERVER) && $_SERVER['HTTP_X_PJAX']) {
 			include('pjax_template.php');
 			exit;
 		}
