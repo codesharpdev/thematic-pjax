@@ -28,7 +28,7 @@ define('PJAXMENU_PLUGIN_URL', plugin_dir_url( __FILE__ ));
 
 class PjaxMenu {
 	public static function loadScripts() {
-		wp_enqueue_script('pjax', PJAXMENU_PLUGIN_URL . 'jquery.pjax.js', array('jquery'));
+		wp_enqueue_script('pjax', PJAXMENU_PLUGIN_URL . 'pjax/jquery.pjax.js', array('jquery'));
 		wp_enqueue_script('pjax_menu', PJAXMENU_PLUGIN_URL . 'pjax_menu.js', array('jquery', 'pjax'));
 	}
 
