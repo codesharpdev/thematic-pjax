@@ -1,5 +1,5 @@
 === pjax menu ===
-Contributors: lost_in_d
+Contributors: Nik
 Tags: menus, ajax, pjax
 Requires at least: 3.1.3
 Tested up to: 3.2-RC2

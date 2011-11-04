@@ -4,11 +4,11 @@ Plugin Name: pjax menu
 Plugin URI: https://github.com/nikolas/pjax-menu
 Description: Adds ajax requests to your nav menu so you can navigate your site without full page refreshes. Only the content data needs to be loaded. Uses jquery-pjax.
 Version: 0.1
-Author: lost_in_d
+Author: Nik
 Author URI: http://4gods.nl/
 License: GPL2
 */
-/*  Copyright 2011 lost_in_d (email: niknyby@gmail.com)
+/*  Copyright 2011 Nik (email: niknyby@gmail.com)
 
     This program is free software; you can redistribute it and/or modify
     it under the terms of the GNU General Public License, version 2, as 
