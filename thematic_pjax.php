@@ -13,8 +13,8 @@ define('THEMATICPJAX_PLUGIN_URL', plugin_dir_url( __FILE__ ));
 
 class ThematicPJAX {
 	public static function load() {
-		wp_enqueue_script('pjax', PJAXMENU_PLUGIN_URL . 'pjax/jquery.pjax.js', array('jquery'));
-		wp_enqueue_script('pjax_menu', PJAXMENU_PLUGIN_URL . 'pjax_menu.js', array('jquery', 'pjax'));
+		wp_enqueue_script('pjax', THEMATICPJAX_PLUGIN_URL . 'pjax/jquery.pjax.js', array('jquery'));
+		wp_enqueue_script('pjax_menu', THEMATICPJAX_PLUGIN_URL . 'pjax_menu.js', array('jquery', 'pjax'));
 	}
 
 	public static function getTemplate() {
