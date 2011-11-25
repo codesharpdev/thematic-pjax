@@ -1,6 +1,6 @@
 #Thematic PJAX
 
-Adds AJAX requests to Thematic navigation so you can navigate your site without full page refreshes. Only the content data is loaded. Uses jquery-pjax.
+> Adds AJAX requests to Thematic navigation so you can navigate your site without full page refreshes. Only the content data is loaded. Uses jquery-pjax.
 
 *Thematic PJAX* adds PJAX to the Thematic Theme Framework. [PJAX](http://pjax.heroku.com/) "loads html from your server into the current page without a full page load. It's AJAX with real permalinks, page titles, and a working back button that fully degrades." Browsing just "feels faster" and makes mixing and matching static with dynamic site elements a breeze. By default, PJAX loads content asynchronously within the `main` div, providing load once static functionality to the header and the footer.
 
