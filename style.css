@@ -1,0 +1,35 @@
+/*   
+Theme Name: Thematic PJAX
+Theme URI: https://github.com/wayoutmind/thematic-pjax
+Description: Thematic made responsive & dynamic: Thematic Child Theme for PJAX layouts.
+Author: Fredrick Galoso
+Author URI: http://fredrickgaloso.me/
+Template: thematic
+Version: 0.1
+Tags: Thematic, responsive, pjax, white, three-columns, two-columns, fixed-width, theme-options, left-sidebar, right-sidebar, threaded-comments, sticky-post, microformats
+.
+Thematic PJAX is © Fredrick Galoso http://fredrickgaloso.me/
+Thematic is © Ian Stewart http://themeshaper.com/
+.
+*/
+
+/* Reset browser defaults */
+@import url('../thematic/library/styles/reset.css');
+
+/* Apply basic typography styles */
+@import url('../thematic/library/styles/typography.css');
+
+/* Apply a basic layout */
+@import url('../thematic/library/layouts/2c-r-fixed.css');
+
+/* Apply basic image styles */
+@import url('../thematic/library/styles/images.css');
+
+/* Apply default theme styles and colors */
+/* It's better to actually copy over default.css into this file (or link to a copy in your child theme) if you're going to do anything outrageous */
+@import url('../thematic/library/styles/default.css');
+
+/* Prepare theme for plugins */
+@import url('../thematic/library/styles/plugins.css');
+
+

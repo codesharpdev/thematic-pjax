@@ -5,6 +5,9 @@
  * This is the default template.
  *
  */
+ 
+    // action hook for placing content above #container
+    thematic_abovecontainer();
 ?>
 
 		<div id="container">
@@ -78,7 +81,7 @@
 			
 		</div><!-- #container -->
 
-<?php 
+<?php
 
     // action hook for placing content below #container
     thematic_belowcontainer();

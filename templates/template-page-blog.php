@@ -5,6 +5,9 @@
  * This template allows you to display the latest posts on any page of the site.
  *
  */
+
+    // action hook for placing content above #container
+    thematic_abovecontainer();
 ?>
 
 		<div id="container">

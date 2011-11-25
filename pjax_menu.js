@@ -1,7 +1,7 @@
 (function($){
 	$(document).ready(function() {
 		$('.menu a').pjax('#main')
-			.live('click', function() {
+		    .live('click', function() {
 		});
 	});
 })(jQuery);
