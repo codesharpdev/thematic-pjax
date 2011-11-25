@@ -1,3 +1,4 @@
+<title> <?php echo get_the_title(); ?> </title>
 <?php
 /**
  * Template Name: Blog

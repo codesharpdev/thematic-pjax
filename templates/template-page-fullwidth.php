@@ -1,3 +1,4 @@
+<title> <?php echo get_the_title(); ?> </title>
 <?php
 /**
  * Template Name: Full Width
@@ -6,7 +7,7 @@
  * can be displayed the entire width of the #content area.
  *
  */
-
+ 
     // action hook for placing content above #container
     thematic_abovecontainer();
 ?>

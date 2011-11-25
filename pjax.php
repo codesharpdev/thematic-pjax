@@ -31,7 +31,7 @@ class ThematicPJAX {
           # Example: Conditional template based on post's template (defined via Wordpress Administration)
           # global $wp_query;
           # $template_name = get_post_meta( $wp_query->post->ID, '_wp_page_template', true );
-      
+          
           include('templates/template-page-fullwidth.php');
           exit;
       
