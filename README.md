@@ -8,7 +8,7 @@ Thematic PJAX is built on the work of the [Thematic Theme Framework](http://word
 
 #License
 
-MIT/X11 - See [LICENSE]()
+MIT/X11 - See [LICENSE](https://github.com/wayoutmind/thematic-pjax/blob/master/LICENSE)
 
 #Getting Started
 
