@@ -1,3 +1,9 @@
+<?php
+/**
+ * Thematic PJAX metadata
+ */
+header('X-PJAX-Template: page-template-links-php');
+?>
 <title> <?php echo get_the_title(); ?> </title>
 <?php
 /*

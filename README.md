@@ -15,6 +15,5 @@ MIT/X11 - See [LICENSE]()
 1. Install [Thematic](http://wordpress.org/extend/themes/thematic).
 2. Download and put thematic-pjax in the Wordpress `themes` folder.
 3. Define PJAX behavior in `functions.php`.
-  - Modify the `template_redirect` filter to a particular PJAX template to use. By default, Thematic's "Full Width" template is used.
   - For best results, the PJAX template type should be the same as the static template (regular page load) and the template should be consistent site wide.
 4. PJAX functionality is controlled by the Thematic navigation menu. To override this behavior, modify `pjax_menu.js`.
