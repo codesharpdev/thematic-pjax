@@ -2,7 +2,7 @@
 /**
  * Thematic PJAX metadata
  */
-header('X-PJAX-Template: page-template-default');
+header('X-Thematic-Template: page-template-default');
 ?>
 <title> <?php echo get_the_title(); ?> </title>
 <?php

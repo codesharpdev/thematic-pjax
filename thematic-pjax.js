@@ -12,7 +12,7 @@
             $(this).ajaxSuccess(function(event, request, settings) {
                 // Modify CSS template
                 var classes = $(this).attr('class');
-                var template = request.getResponseHeader('X-PJAX-Template');
+                var template = request.getResponseHeader('X-Thematic-Template');
                 if (classes.indexOf(template) === -1) {
                     $(this).attr('class', classes.replace(/page-template-([^\s]+)/, template));
                 }
