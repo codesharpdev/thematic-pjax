@@ -3,6 +3,7 @@
  * Thematic PJAX metadata
  */
 header('X-Thematic-Template: page-template-template-page-blog-php');
+include('meta.php');
 ?>
 <title> <?php echo get_the_title(); ?> </title>
 <?php

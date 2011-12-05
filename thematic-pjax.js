@@ -7,15 +7,20 @@
            $(this).parent().addClass('current_page_item');
         });
 
-        // Watch PJAX requests so meta data in page can be modified accordingly
+        // Watch PJAX requests so meta data in document can be modified accordingly
         $('body').bind('pjax:start', function() {
             $(this).ajaxSuccess(function(event, request, settings) {
-                // Modify CSS template
+                // CSS template
                 var classes = $(this).attr('class');
                 var template = request.getResponseHeader('X-Thematic-Template');
                 if (classes.indexOf(template) === -1) {
                     $(this).attr('class', classes.replace(/page-template-([^\s]+)/, template));
                 }
+                // Canonical link
+                request.getResponseHeader('X-Link-Canonical');
+                // Index link
+                // Previous link
+                // Next link
             });
         });
     });
