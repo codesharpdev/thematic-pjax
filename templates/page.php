@@ -4,6 +4,7 @@
  */
 header('X-Thematic-Template: page-template-default');
 include('meta.php');
+?>
 <title> <?php echo get_the_title(); ?> </title>
 <?php
 /**
