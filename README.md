@@ -18,7 +18,7 @@ A Thematic child theme, Thematic PJAX is a drop in solution to creating asynchro
 
 1. Install [Thematic](http://wordpress.org/extend/themes/thematic).
 2. Download and put thematic-pjax in the Wordpress `themes` folder.
-3. Add custom functionality in `functions.php`.
+3. Add [custom functionality](https://github.com/wayoutmind/thematic-pjax/blob/master/functions.php#L9-17) in `functions.php`.
 4. PJAX functionality is controlled by the Thematic navigation menu. To override this behavior, modify `thematic-pjax.js`.
 
 #License and Attribution
