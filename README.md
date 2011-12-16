@@ -12,7 +12,7 @@
 
 ##Seamless dynamism
 
-A Thematic child theme, Thematic PJAX is a drop in solution to creating asynchronous Wordpress layouts. It looks and feels just like any Thematic project. However, as designed, content is dynamically loaded, while header and footer sections remain static, perfect for dynamic single page style layouts, without the mess of #! [hashbang URIs](http://www.webmonkey.com/2011/02/gawker-learns-the-hard-way-why-hash-bang-urls-are-evil/). Finally, [page templates](http://codex.wordpress.org/Pages#Page_Templates), widgets, and [custom functions](https://github.com/wayoutmind/thematic-pjax/blob/master/functions.php#L9-17) all work as expected.
+A Thematic child theme, Thematic PJAX is a drop in solution to creating asynchronous Wordpress layouts. It looks and feels just like any Thematic project. However, as designed, content is dynamically loaded, while header and footer sections remain static, perfect for dynamic single page style layouts, all without the mess of #! [hashbang URIs](http://www.webmonkey.com/2011/02/gawker-learns-the-hard-way-why-hash-bang-urls-are-evil/). Finally, [page templates](http://codex.wordpress.org/Pages#Page_Templates), widgets, and [custom functions](https://github.com/wayoutmind/thematic-pjax/blob/master/functions.php#L9-17) all work as expected.
 
 #Getting Started
 
