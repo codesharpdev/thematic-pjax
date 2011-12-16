@@ -2,11 +2,11 @@
     $(document).ready(function() {
         /** Load PJAX on navigation interaction
           */
-        $('.menu a').pjax('#main').click(function() {
+        $('.menu a').pjax('#main').click(function() { //[Option] Change '.menu a' to desired PJAX control element
            $('.current_page_item').removeClass('current_page_item');
            $(this).parent().addClass('current_page_item');
         });
-        /** Watch PJAX requests so metadata in document can be modified accordingly
+        /** Watch PJAX requests so metadata in document can be modified dynamically
           */
         $('body').bind('pjax:start', function() {
             $(this).ajaxSuccess(function(event, request, settings) {
