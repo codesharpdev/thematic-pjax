@@ -1,5 +1,24 @@
 (function($){
+  jQuery.cookie=function(a,b,c){if(arguments.length>1&&String(b)!=="[object Object]"){c=jQuery.extend({},c);if(b===null||b===undefined)c.expires=-1;if(typeof c.expires=="number"){var d=c.expires,e=c.expires=new Date;e.setDate(e.getDate()+d)}b=String(b);return document.cookie=[encodeURIComponent(a),"=",c.raw?b:encodeURIComponent(b),c.expires?"; expires="+c.expires.toUTCString():"",c.path?"; path="+c.path:"",c.domain?"; domain="+c.domain:"",c.secure?"; secure":""].join("")}c=b||{};var f,g=c.raw?function(a){return a}:decodeURIComponent;return(f=(new RegExp("(?:^|; )"+encodeURIComponent(a)+"=([^;]*)")).exec(document.cookie))?g(f[1]):null}
     $(document).ready(function() {
+      $(':checkbox').attr('checked', $.cookie('pjax'))
+
+        if ( !$(':checkbox').attr('checked') )
+          $.fn.pjax = $.noop
+
+        $(':checkbox').change(function() {
+          if ( !$.support.pjax ) {
+            $(this).removeAttr('checked')
+            return alert( "Sorry, your browser doesn't support pjax :(" )
+          }
+
+          if ( $(this).attr('checked') )
+            $.cookie('pjax', true)
+          else
+            $.cookie('pjax', null)
+
+          window.location = location.href
+        });
         /** Load PJAX on navigation interaction
           */
         $('.menu a').pjax('#main').click(function() { //[Option] Change '.menu a' to desired PJAX control element
